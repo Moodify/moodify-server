@@ -1,0 +1,18 @@
+extends layout
+
+block content
+  p Command: #{title}
+  pre #{data_out}
+
+  a(href="/play") play
+  br
+  a(href="/pause") pause
+  hr
+
+  a(href="/mood/happy") Happy Playlist
+  br
+  a(href="/mood/chill") Chill Playlist
+  br
+  a(href="/mood/thoughtful") Thoughtfull Playlist
+  br
+  a(href="/mood/party") Dance Party Playlist
